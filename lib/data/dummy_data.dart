@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:meals/models/category.dart';
 import 'package:meals/models/meal.dart';
 
-// Constants in Dart should be written in lowerCamelcase.
 const availableCategories = [
   Category(
     id: 'c1',
@@ -68,7 +67,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://drive.google.com/uc?export=view&id=1_V9bKqjqwILq-6dCUod6D2O3v3GtrS-L',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -101,7 +100,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Toast_Hawaii_RZ.jpg/640px-Toast_Hawaii_RZ.jpg',
+        'https://drive.google.com/uc?export=view&id=1X_9L5WpSfuUUeU8lmaZt8VqtXBwb9QiN',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -130,7 +129,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Rollin%27_in_the_Dough_Classic_Burger%2C_Shreveport%2C_LA.jpg/640px-Rollin%27_in_the_Dough_Classic_Burger%2C_Shreveport%2C_LA.jpg',
+        'https://drive.google.com/uc?export=view&id=1jGlTLqV4jK0pXGSzB78aB6AgpGDJv6Ti',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -161,7 +160,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://images.unsplash.com/photo-1599921841143-819065a55cc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80',
+        'https://drive.google.com/uc?export=view&id=1N65RZdz43-TIIrsOngT_SIjz1iK_QFOn',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -198,7 +197,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Mixed_salad_smoked_salmon.jpg/640px-Mixed_salad_smoked_salmon.jpg',
+        'https://drive.google.com/uc?export=view&id=1j4BycgzXjfiBqbKQOhwXtM4OkETFNP1g',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -233,7 +232,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
     imageUrl:
-        'https://images.unsplash.com/photo-1666083580269-6f409e1765d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+        'https://drive.google.com/uc?export=view&id=1Vur7BVB9KzCdY0-VgRlNCIxn7hr60P6H',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -268,7 +267,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn-img.fimfiction.net/story/4ue0-1498243266-377352-medium',
+        'https://drive.google.com/uc?export=view&id=1_CaR3bz9rCV-0WJMELFah_wjKP571wEb',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -299,7 +298,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://images.unsplash.com/photo-1554054204-b2f70b09d031?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=711&q=80',
+        'https://drive.google.com/uc?export=view&id=1gSKQdkNzfodSPEGAoaO6Zq4jTwQoedv5',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -332,7 +331,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chocolate_souffle_at_Troquet.jpg/640px-Chocolate_souffle_at_Troquet.jpg',
+        'https://drive.google.com/uc?export=view&id=1tzA-RQOZ9Ylb3XD4CA02FQQYZFPRofeo',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -383,7 +382,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
+        'https://drive.google.com/uc?export=view&id=1F4Pjm3Id_3ZKAjpyuleIcKkWETvPbddL',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
